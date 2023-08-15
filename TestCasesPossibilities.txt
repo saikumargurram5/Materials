@@ -1,0 +1,50 @@
+################## TEST CASES ####################
+
+Checking Admin login with Valid credentials 
+Checking Admin login with Invalid credentials 
+Checking Admin login with Invalid Username and Valid Password 
+Checking Admin login with Valid Username and Invalid Password 
+Checking Admin login with Blank Data
+Checking Admin login when we Click logout with Valid credentials 
+Checking Admin login with valid username by providing Lowercase letters
+Checking Admin login with valid username by providing Uppercase inputs
+Checking Home page displayed is relavent to Admin Module or not
+Checking Admin login with valid Password by providing all Lowercase 
+Checking Admin login with valid Password by providing all Uppercase inputs
+Checking Password Field is Displaying entered text in encrypted form or not.
+Checking the Place Holders for both Username and Password field
+Checking UI visibility for Submit button
+Checking entered username and password is displaying after refreshing page or not
+checking the session timeouts for loginpage 
+checking the UI and Texts and Links in Login Page.
+Checking the performance of the Page loading time.
+Checking Error message is correctly Displaying or Not by Invalid Username.
+Checking Error message is correctly Displaying or Not by Invalid Password.
+Checking Error message is correctly Displaying or Not by not providing any data.
+Checking Login functionality after been Resetting password
+Veryfing wheather all the textboxes having minimum and maximum length or not
+Checking Login page and all the fields in login page are displaying without any break in different browers.
+Checking the cuser focus on Username text field on the page load
+Checking the Tab Functionality is working or not
+Checking the "Enter" is working or not as a substitute for login.
+Checking Admin Login functionality with Inactive Credentials
+Checking reload page option whether it is clearing the entered data in all the fields in login page
+Checking the Admin login by using old password after been changed with new one.
+Checking the Admin login after closing the browser without logout the application
+Checking the limit of application of unsucessful login attempts.
+checking the password is copy - pasted 
+Checking the page source code of the Login Page that any security information is displaying or not.
+Checking the login page is targeted to SQL Injection.
+Checking XSS works on a login page or not.
+Checking Virtual Keyboard is avaliable and working fine to enter data in to fields.
+Checking SSL Certification is implemented or not.
+Checking Admin login when Browser Cookies are got cleared.
+Checking Login Functionality when Browser Coockies got Turned Off.
+Checking Admin Login functionality in a different browsers simentaniously. 
+Verify if a user should not be allowed to log in with different credentials from the same browser at the same time.
+Checking the URL of Admins login in another browser after he/she Logged into the application.
+Checking the Admin login functionality when he/she logged in with different multiple devices.
+
+
+
+

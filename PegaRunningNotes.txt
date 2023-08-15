@@ -1,0 +1,82 @@
+                     ******************** PEGA **************************
+PEGA BPM DEMO :
+Pega is used for Application Development, in this we will develp UI,BU,DB  layers by generating code internally.
+
+generally application conssist of three layers those are UI -> Business Logic -> DataBase, so we have to do coding for those 3 layers by using different languages like java,c#,SQL,JS,Angular etc..
+
+BPM :- Business Process Management
+it provides ablity to have a end to end visibility and control over all parts of multi stepped transcation in a business application.
+BPM is nothing but envirornment methodology which involves all layers to develop,run and execute
+
+Process :- its a unit of work can be completed either by acceptance or rejection 
+
+BPM Suite:- Its a plactform to build a software by following Build In business rules
+Business Rules DB :- contains rules / logics
+Business Rules Engine :- acts as interface b/w layers
+
+#) PRPC - Pega Rules Process Commender is a tool which was developed by Pega Systems Company,So used to develop business process management applications without need of coding the UI,BL,DB layers, by this it obtains application development within short span of time. 
+               BPM                        PRPC
+	process(Work flow)    -->   process(Workflow)
+	Business Rules            -->   Pega Rules
+	BusinessRulesDB        -->   Rule Base DB
+	BusinessRulesEngine  -->   Process Commander
+
+In Traditional opproach we should write a lot of boiler plate code, insterd in PRPC It provides a form based development	by figuring rules 
+that will define our process.
+###################################################
+PEGA LOGIN :
+UID :-administrator@pega.com
+PWD:-install
+#################################
+
+******************************************* PROJECT ***************************************************
+Project Domain --> Business --> Insurance Application  (FrameWork App Over all business contains common functions) = App 1
+Project Modules --> Line of Business  --> Life insurance, Home Insurance, Auto Insurance  = App 2,3,4  (Impl App , contains Specific functions)
+=======================================
+PRPC :- Pega Rules Process Commander
+its a Application Development Envirornment develop by Pega Systems to develop business process management applications by using ready made functionalities business applications can be developed without the need of code, this tool contains set of common business functionality as OOTB(Out Of The Box) rules example sendemailnotification, updatecaseststus, commitwitherrorhandling.
+
+Operator ID : administrator@pega.com
+password : install
+there are 2 attributes in PRPC === 1) ID -> used by system to access , 2) Label -> Displayed on screen
+
+********************************************************
+Out Of the box
+------------------
+    APPLICATION :
+	           App Name :
+			   App Type : FW / Impl
+			   Operator Id & Password
+			   Organization Name
+
+
+*************************************************************************************
+#TASK:-
+        Create a new framework application to process insurance policys where the business client is Omega
+		
+		Create a 2 different applications 
+		                          1) FrameWork Application   (Present Top of Impl App)
+								  2) Implementation Application   (Present Top of Pega Rule)
+								  
+								  
+		Inside Implementation Application :
+		          Login to impl app -> Dev Studio -> App Exploror
+				  
+				  syntax       ->           orgname-implname-work    ( System will auto generates this classes automatically )
+				                                       < Org - Div - Unit>
+							orgname -> Organization Class
+							implname -> App Class / Div class
+							work -> Unit class
+				Rclick on each class and click defination = to know what type of class it is 
+				
+
+Pattern Inheritance :- to access the functionalities of parent class in current application only
+Direct Inheritance :-  to access the functionalities of parent class for other applications as well
+
+#) Classes in Pega......
+           OOTB Classes is the predefined classes in Pega.
+		         -> @baseclass   - this is the top most parent class in pega, every class is child of this base class.
+				 -> Work-, Data-, Int-, Index-, Assign-, Code-, Rule-, Embed-, CMIS-, etc....    - thease are sub parent classes of base class 
+				 
+
+
